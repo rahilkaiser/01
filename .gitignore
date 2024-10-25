@@ -1,0 +1,41 @@
+# PHP
+/vendor/
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+
+# Umgebungsvariablen
+.env
+
+# IDE-spezifische Dateien
+.idea/
+.vscode/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.swp
+*.swo
+
+# Datenbank
+*.sqlite
+
+# Composer
+composer.lock
+
+# Docker
+.docker/
+
+# Weitere projektspezifische Ausschlüsse
+/public/hot
+/public/storage
+/storage/*.key
+
+.env
